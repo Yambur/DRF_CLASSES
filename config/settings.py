@@ -165,4 +165,4 @@ CSRF_TRUSTED_ORIGINS = [
     "https://read-and-write.example.com",
 ]
 
-STRIP_KEY = 'sk_test_4eC39HqLyjWDarjtT1zdp7dc'
+STRIP_KEY = env('STRIP_KEY')
